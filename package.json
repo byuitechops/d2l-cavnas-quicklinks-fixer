@@ -1,0 +1,15 @@
+{
+  "name": "canvas-course-conversion-tool",
+  "version": "1.0.0",
+  "description": "A tool to convert a course from the D2L to the Canvas LMS System.",
+  "main": "course-xml-scraper.js",
+  "dependencies": {
+    "fast-xml-parser": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Nicholes",
+  "license": "MIT"
+}
