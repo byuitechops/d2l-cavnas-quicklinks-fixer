@@ -1,27 +1,47 @@
 var fs = require('fs');
 var jxon = require('jxon');
 
+
 /**
  * The main driver of the program.  First, let's test out the xml2json
  * Module and see if it works.  Then, let's access an element from
  * the outputted JSON data.
  * 
  * @author Scott Nicholes
+ *         'imsmanifest.xml'
  */
-function main() {
-    var readXml = fs.readFileSync('imsmanifest.xml', 'utf8');
+function main(filePath) {
+    var manifestObject = generateManifestObject(filePath);
+    var formattedManifest = formatManifestObject(manifestObject);
 
-    var xmlObject = jxon.stringToJs(readXml);
+    return formattedManifest;
+}
 
-    // Find the first byui-prodou number
-    xmlObject.manifest.organizations.organization.item.forEach(function (anItem) {
-        console.log(anItem);
-    })
+function generateManifestObject(filePath) {
+    var receivedXml;
 
+    // Error check and read the file if they give us the .xml, ELSE: Do the same for the folder path.
+    if (filePath.includes('.xml')) {
+        if (!fs.existsSync(filePath)) {
+            throw 'File does not exist in that path'
+        }
+        receivedXml = fs.readFileSync(filePath, 'utf8');
+    } else {
+        if (!fs.existsSync(filePath + '\imsmanifest.xml')) {
+            throw 'File does not exist in that fplder';
+        }
+        receivedXml = fs.readFileSync(filePath + '\imsmanifest.xml', 'utf8');
+    }
 
+    var manifestObject = jxon.stringToJs(receivedXml);
+
+    return manifestObject;
+}
+
+function formatManifestObject(manifestObject) {
     var arrayOfObjects = [];
 
-    xmlObject.manifest.organizations.organization.item.forEach(function (currentItem) {
+    manifestObject.manifest.organizations.organization.item.forEach(function (currentItem) {
         var newObject = currentItem.item.reduce(function (rObj, element) {
             rObj[element['$d2l_2p0:resource_code'].match(/\d+$/)[0]] = element.title
             return rObj;
@@ -39,10 +59,11 @@ function main() {
     }, {});
 
 
-    console.log(resultObject);
+    //console.log(resultObject);
 
     return resultObject
+
 }
 
-main();
+//main();
 module.exports = main;
