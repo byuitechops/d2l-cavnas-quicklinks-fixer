@@ -1,0 +1,83 @@
+3944 -> manifest, L08 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-3944" target="_blank">Course Fixes and Improvements</a> 
+
+21451 -> Lessons 01-13 Lesson Notes (Links to General Lesson Notes)
+
+21452 -> L01 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-21452" target="_blank">Course Map</a>
+
+21457 -> General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-21457" target="_blank">Setup For Course Instructor</a>, L01 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-21457" target="_blank">Pre-Semester Setup</a>
+
+99853 -> manifest, discussion_d2l_4.xml: <topic id="221" resource_code="byui_produ-99853">, L08 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=discuss&amp;rcode=byui_produ-99853" target="_blank">L09 Discussion Board</a>
+
+99854 -> manifest, discussion_d2l_4.xml: <topic id="220" resource_code="byui_produ-99854">, L05 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=discuss&amp;rcode=byui_produ-99854" target="_blank">L06 Discussion Board</a> 
+
+99855 -> manifest, discussion_d2l_4.xml: <topic id="219" resource_code="byui_produ-99855">, L02 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=discuss&amp;rcode=byui_produ-99855" target="_blank">Go to the L03 Discussion Board</a>,  L03 Discussion Board: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=discuss&amp;rcode=byui_produ-99855" target="_blank">L03: Discussion Board</a>
+
+101338 -> manifest, quiz_d2l_527575.xml: rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-101338" target="_blank"&gt;L08 Weekly Reflection - Directions
+
+102025 -> manifest, L06 Discussion Board - Directions: <a title="L06: Discussion Board" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-102025" target="_blank">L06: Discussion Board</a> 
+
+103911 -> manifest, Career Leader Assessment: <a title="Career Leader Assessment" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-103911" target="_blank">Career Leader Assessment</a>
+
+207248 -> manifest, quiz_d2l_527567.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-207248" target="_blank"&gt;L01 Syllabus Quiz - Directions&lt;/a
+
+207252 -> manifest, discussion_d2l_2.xml: a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-207252" target="_blank"&gt;L01 Ice Breaker&amp;mdash;Directions&lt;/a
+
+207295 -> manifest, quiz_d2l_527568.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-207295" target="_blank"&gt;L02 Weekly Reflection - Directions&lt;/a
+
+207362 -> manifest, quiz_d2l_527569.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-207362" target="_blank"&gt;L03 Weekly Reflection - Directions&lt;/a
+
+207440 -> manifest
+
+207505 -> manifest, quiz_d2l_527571.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-207505" target="_blank"&gt;L05 Weekly Reflection - Directions&lt;/a
+
+207708 -> manifest, discussion_d2l_4.xml: a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-207708" target="_blank"&gt;L06 Discussion Board - Directions&lt;/a
+
+207850 -> manifest, quiz_d2l_527572.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-207850" target="_blank"&gt;L06 Weekly Reflection - Directions&lt;/a
+
+207980 -> manifest, quiz_d2l_527573.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-207980" target="_blank"&gt;L07 Weekly Reflection - Directions&lt;/a
+
+208467 -> manifest, discussion_d2l_4.xml: a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-208467" target="_blank"&gt;L09 Discussion Board - Directions&lt;/a
+
+208484 -> manifest, quiz_d2l_527576.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-208484" target="_blank"&gt;L09 Weekly Reflection - Directions&lt;/a
+
+208503 -> manifest, L10 Submit Portfolio - Directions: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-208503" target="_blank">.</a>
+
+208512 -> manifest, dropbox_d2l.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-208512" target="_blank"&gt;L10 Submit Portfolio - Directions&lt;/a
+
+208529 -> manifest, quiz_d2l_527577.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-208529" target="_blank"&gt;L10 Weekly Reflection - Directions&lt;/a
+
+344592 -> manifest(IN TITLE AND WEBCONTENT), allQuickLinksBenCourse.json(ASSOCIATED WITH: L11 Discussion Board), discussion_d2l_4.xml: <topic id="222" resource_code="byui_produ-344592">, L10 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=discuss&amp;rcode=byui_produ-344592" target="_blank">L11 Discussion Board</a>
+
+407716 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407716" target="_blank">Lesson&nbsp;01</a>
+
+407717 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407717" target="_blank">Lesson&nbsp;02</a>, L03 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407717" target="_blank">L02 Lesson Notes</a>
+
+407718 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407718" target="_blank">Lesson 03</a>
+
+407719 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407719" target="_blank">Lesson 04</a>, L05 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407719" target="_blank">L04 Lesson Notes</a>
+
+407720 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407720" target="_blank">Lesson 05</a>, L06 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407720" target="_blank">L05 Lesson Notes</a>
+
+407721 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407721" target="_blank">Lesson 06</a>, L07 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407721" target="_blank">L06 Lesson Notes</a>
+
+407722 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407722" target="_blank">Lesson 07</a>, L08 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407722" target="_blank">L07 Lesson Notes</a>
+
+407723 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407723" target="_blank">Lesson 08</a>, L09 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407723" target="_blank">L08 Lesson Notes</a>
+
+407724 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407724" target="_blank">Lesson 09</a>, L10 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407724" target="_blank">L09 Lesson Notes</a>
+
+407725 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407725" target="_blank">Lesson 10</a>, L11 Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407725" target="_blank">L10 Lesson Notes</a>
+
+407726 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407726" target="_blank">Lesson 11</a>
+
+407727 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407727" target="_blank">Lesson 12</a>
+
+407728 -> manfiest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-407728" target="_blank">Lesson 13</a>
+
+492837 -> manifest, discussion_d2l_4.xml: a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-492837" target="_blank"&gt;L11 Discussion Board&amp;mdash;Directions&lt;/a
+
+1010224 -> manifest, discussion_d2l_4.xml: a rel="noopener" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_produ-1010224" target="_blank"&gt;L03 Discussion Board - Directions&lt;/a
+
+1071501 -> manifest, L10 Submit Portfolio - Directions: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_produ-1071501" target="_blank">B100 Portfolio Overview and Sample</a>
+
+1137022 -> manifest, General Lesson Notes: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_production-1137022" target="_blank">Syllabus</a>, L01 Syllabus Quiz - Directions: <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=237861&amp;type=content&amp;rcode=byui_production-1137022" target="_self">Syllabus</a>, syllabus_d2l.xml: a href=&quot;/d2l/common/dialogs/quickLink/quickLink.d2l?ou={orgUnitId}&amp;amp;type=content&amp;amp;rcode=byui_production-1137022&quot; target=&quot;_self&quot;&gt;Course Syllabus&lt;/a

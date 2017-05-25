@@ -2,3 +2,5 @@
 node_modules/
 imsmanifest.xml
 *.imscc
+Ben_Course_Export/
+d2l-export-scraper/
