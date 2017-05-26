@@ -15,9 +15,12 @@
  ****************************************************/
 var fs = require('fs');
 var jxon = require('jxon');
+var cheerio = require('cheerio');
+var $;
 
 // Export this module
 module.exports = main;
+//main();
 
 /**
  * The main driver of the program.  First, let's test out the xml2json
@@ -27,8 +30,14 @@ module.exports = main;
  * @author Scott Nicholes
  */
 function main(filePath) {
-    var manifestObject = generateManifestObject(filePath);
-    var formattedManifest = mapManifestData(manifestObject);
+    /*// NON-CHEERIO WAY:
+var manifestObject = generateManifestObject(filePath);
+var formattedManifest = mapManifestData(manifestObject);*/
+
+    // CHEERIO WAY:
+    filePath = 'imsmanifest.xml';
+    generateManifestObject(filePath);
+    formattedManifest = mapManifestData();
 
     return formattedManifest;
 }
@@ -57,11 +66,8 @@ function generateManifestObject(filePath) {
         manifestXml = fs.readFileSync(filePath + '\imsmanifest.xml', 'utf8');
     }
 
-    var manifestObject = jxon.stringToJs(manifestXml);
-
-    //console.log(manifestObject.manifest.organizations.organization.item[1].item[0].item);
-
-    return manifestObject;
+    // Load in the XML to cheerio
+    $ = cheerio.load(manifestXml);
 }
 
 /**
@@ -71,31 +77,28 @@ function generateManifestObject(filePath) {
  * @returns {object} A single object that contains the byui-production number mapped
  *                   to its title.
  * @author Scott Nicholes
+ *         
+ * NON CHEERIO WAY:
+ * function mapManifestData(manifestObject)        
  */
-function mapManifestData(manifestObject) {
-    // This array will hold all of the individual mapped objects for each XML item element.
-    var parsedObjects = [];
+function mapManifestData() {
+    var titles = $('title').get();
 
-    // Reduce each of the objects down to a 2 element object and then push it onto the above array.
-    manifestObject.manifest.organizations.organization.item.forEach(function (currentItem) {
-        var newObject = currentItem.item.reduce(function (rObj, element) {
-            rObj[element['$d2l_2p0:resource_code'].match(/\d+$/)[0]] = element.title
-            return rObj;
-        }, {});
-
-        parsedObjects.push(newObject);
+    var titleNames = [];
+    var titleCodes = [];
+    titles.forEach(function (title) {
+        if (!title.children[0].data.includes('quickLink')) {
+            titleNames.push(title.children[0].data);
+            titleCodes.push(title.parent.attribs['d2l_2p0:resource_code']);
+        }
     });
 
-    // Reduce the array of objects we have down to a single object with numbers as keys
-    // and titles as values
-    var resultObject = parsedObjects.reduce(function (accum, element) {
-        var keys = Object.keys(element);
-        accum[keys[0]] = element[keys[0]];
-        accum[keys[1]] = element[keys[1]];
-
-        return accum;
+    var newObject = titleCodes.reduce(function (rObj, element, index) {
+        rObj[element.match(/\d+$/)[0]] = titleNames[index];
+        return rObj;
     }, {});
 
-    return resultObject
+    //console.log(newObject);
 
+    return newObject;
 }
