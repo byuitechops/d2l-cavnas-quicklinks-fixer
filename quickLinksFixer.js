@@ -11,11 +11,6 @@ var searchedManifest = searcher('./');
 var rootFilenames = fs.readdirSync('./Ben_Course_Export/');
 var courseFilenames = fs.readdirSync('./Ben_Course_Export/Course Files');
 
-// Make a directory to put all of our files
-if (!fs.existsSync("tempCourseFiles/")) {
-  fs.mkdirSync("tempCourseFiles/");
-}
-
 var keys = Object.keys(searchedManifest);
 
 var foundFileNames = [];
@@ -79,11 +74,13 @@ filteredArray.forEach(function (chunk, index) {
   //console.log(matchArray[1]);
   //console.log(newBody.includes("meep"));
 
-  if (chunk.fileName.includes("Course Files")) {
+  /*if (chunk.fileName.includes("Course Files")) {
       var adjustedFileName = chunk.fileName.replace("Course Files\\", '');
       //console.log(adjustedFileName);
       fs.writeFileSync("tempCourseFiles/" + adjustedFileName, newBody);
   } else {
       fs.writeFileSync("tempCourseFiles/" + chunk.fileName, newBody);
-  }
+  }*/
+  
+  fs.writeFileSync('./Ben_Course_Export/' + chunk.fileName, newBody);
 });
