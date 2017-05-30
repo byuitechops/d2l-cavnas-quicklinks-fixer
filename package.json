@@ -1,5 +1,5 @@
 {
-  "name": "canvas-course-conversion-tool",
+  "name": "quicklincks-fixer",
   "version": "1.0.0",
   "description": "A tool to convert a course from the D2L to the Canvas LMS System.",
   "main": "course-xml-scraper.js",
