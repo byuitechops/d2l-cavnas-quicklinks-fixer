@@ -1,0 +1,14 @@
+{
+    "properties": {
+        "orgUnitId": {
+            "description": "Enter D2L Org Unit ID Number to copy from: ",
+            "type": "string",
+            "default": "237861"
+        },
+        "course_id": {
+            "description": "Enter Canvas Course_Id to apply settings to: ",
+            "type": "string",
+            "default": "15"
+        }
+    }
+}
